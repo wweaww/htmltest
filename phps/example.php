@@ -1,4 +1,4 @@
 <?php
-	$data = $_GET['text1'];
+	$data = $_POST['text1'];
 	echo $data;
 ?>
