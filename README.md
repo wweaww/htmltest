@@ -1,1 +1,1 @@
-# https://wweaww.github.io/htmltest/main.html
+# https://wweaww.github.io/htmltest/index.html
