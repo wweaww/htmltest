@@ -15,11 +15,11 @@ body:hover{
 */
 
 details::first-line{
-    color: darkgreen;
+    color: yellow;
 }
 
 details::first-letter{
-    color: red;
+    color: green;
 }
 
 li::marker{
