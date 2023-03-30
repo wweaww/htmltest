@@ -1,0 +1,45 @@
+/*
+클래스가 있는 모든 태그
+    [class] {}
+선택자 =일치, ^=시작, ~=포함(단, 공백으로 분리된 값까지 일치해야함), *=포함, $=끝, |=정확하게 일치하거나 시작하는 요소
+    [class="self"] {}
+    [class^="se"] {}
+    [class~="el"] {}
+    [class*="el"] {}
+    [class$="lf"] {}
+    [class|="sel"] {}
+*/
+
+
+
+
+[type="button"].bt {
+    color:white;
+    background-color: rgb(100,100,100);
+}
+
+[type="button"].bt:hover{
+    background-color: rgba(50,50,50);
+}
+
+[type="button"].bt:active{
+    background-color: black;
+}
+
+/*
+[type="button"].bt0:focus{
+    background-color: red;
+}
+
+[type="button"].bt0:enabled{
+    background-color: aqua;
+}
+
+[type="button"].bt0:disabled{
+    background-color: blue;
+}
+
+[type="button"]:nth-child(2n-1){
+    background-color: plum;
+}
+*/
