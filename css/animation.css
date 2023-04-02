@@ -52,7 +52,7 @@ body:not(:hover){ opacity:0%; background-color: white; }
     15% { background-image: url(../images/rotate/0\ \(11\).png); }
     20% { background-image: url(../images/rotate/0\ \(13\).png); }
     25% { background-image: url(../images/rotate/0\ \(14\).png); }
-    30% { background-image: url(../images/rotate/0\ \(18\).png); }
+    30% { background-image: url(../images/rotate/0\ \(17\).png); }
     35% { background-image: url(../images/rotate/0\ \(20\).png); }
     40% { background-image: url(../images/rotate/0\ \(21\).png); }
     45% { background-image: url(../images/rotate/0\ \(25\).png); }
@@ -62,9 +62,9 @@ body:not(:hover){ opacity:0%; background-color: white; }
     65% { background-image: url(../images/rotate/0\ \(32\).png); }
     70% { background-image: url(../images/rotate/0\ \(34\).png); }
     75% { background-image: url(../images/rotate/0\ \(35\).png); }
-    80% { background-image: url(../images/rotate/0\ \(37\).png); }
-    85% { background-image: url(../images/rotate/0\ \(38\).png); }
-    90% { background-image: url(../images/rotate/0\ \(39\).png); }
-    95% { background-image: url(../images/rotate/0\ \(41\).png); }
+    80% { background-image: url(../images/rotate/0\ \(38\).png); }
+    85% { background-image: url(../images/rotate/0\ \(39\).png); }
+    90% { background-image: url(../images/rotate/0\ \(41\).png); }
+    95% { background-image: url(../images/rotate/0\ \(52\).png); }
     100% { background-image: url(../images/rotate/0\ \(54\).png); }
 }
