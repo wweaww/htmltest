@@ -4,7 +4,7 @@ body {
     background-position: left top, right top;
 
     transition:background-color 10s ease-out 100ms;
-    animation-name: slidein2;
+    animation-name: slidein;
     animation-duration: 10s;
     /* animation-name: page_loop; */
     /* animation-duration: 30s; */
