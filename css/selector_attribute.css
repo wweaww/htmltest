@@ -10,36 +10,21 @@
     [class|="sel"] {}
 */
 
+header [type="button"] {
+    color:rgb(255, 231, 255);
+    background-color: rgb(100,100,100);
+}
 
-
-
-[type="button"].bt {
+header [type="button"].bt {
     color:white;
     background-color: rgb(100,100,100);
 }
 
-[type="button"].bt:hover{
+header [type="button"].bt:hover{
     background-color: rgba(50,50,50);
 }
 
-[type="button"].bt:active{
-    background-color: black;
+header [type="button"].bt:active{
+    color: rgba(255, 0, 0, 255);
+    background-color: rgba(0, 0, 0, 255);
 }
-
-/*
-[type="button"].bt0:focus{
-    background-color: red;
-}
-
-[type="button"].bt0:enabled{
-    background-color: aqua;
-}
-
-[type="button"].bt0:disabled{
-    background-color: blue;
-}
-
-[type="button"]:nth-child(2n-1){
-    background-color: plum;
-}
-*/

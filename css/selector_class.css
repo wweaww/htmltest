@@ -27,9 +27,7 @@
         flex-direction: column;
         justify-content: space-evenly;
     }
-    .right {
-        width:100%;
-    }
+    .right { width:100%; }
 }
 @media(min-width:800px){
     .left {
@@ -42,9 +40,7 @@
         flex-direction: column;
         justify-content: space-evenly;
     }
-    .right {
-        width:calc(100% - 152px);
-    }
+    .right { width:calc(100% - 152px); }
 }
 
 .item {
@@ -58,19 +54,6 @@
 
 .vertical-rl {
     writing-mode: vertical-rl;
-}
-
-.bt {
-    color:white;
-    background-color: rgb(100,100,100);
-}
-
-.bt:hover{
-    background-color: rgba(50,50,50);
-}
-
-.bt:active{
-    background-color: black;
 }
 
 /*display: none;*/

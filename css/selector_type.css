@@ -1,30 +1,23 @@
 body {
-    background-repeat: repeat-y;
-    background-position: top;
-    background-size: 100% auto;
+    background-repeat: no-repeat;
     background-attachment: scroll;
-    background-image: url(../images/back.png);
-    background-color: bisque;
-    
-    transition:background-color 2s ease-out 100ms;
+    background-color: white;
 }
 
 html, body { height: 100%; }
 table {font-family: serif; border:1px double blue;}
 tr, td {border:1px solid black;}
-tr:nth-child(2) td:nth-child(3){background-color: gray;}
 dl {width:100%; font-family: serif; border:2px dashed black; display: inline-block;}
 address, footer, pre, header, article, aside, section, h1, h2, h3, h4, h5, h6, div:not([class]) { border:1px dashed black; }
 li *{text-align: center;}
 details { border:1px dashed black; }
+video { min-width: 100%; max-width: 100%; }
 
 header { top:0px; }
 footer { bottom:0px; }
 header, footer{
     text-align: center;
-    background-color: rgba(100, 100, 100, 70%);
+    background-color: rgba(255, 173, 241, 0.7);
     width:100%;
     position:sticky;
 }
-video { min-width: 100%; max-width: 100%; }
-
