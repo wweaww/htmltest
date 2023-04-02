@@ -1,7 +1,7 @@
 body {
-	background-image: url(../images/back.png), url(../images/back2.png);
-    background-size: 50% auto, 50% auto;
-    background-position: left top, right top;
+	background-image: url(../images/back.png);
+    background-size: 100% auto;
+    background-position: center center;
 
     transition:background-color 10s ease-out 100ms;
     animation-name: slidein;
