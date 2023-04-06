@@ -65,3 +65,8 @@ body:not(:hover){
 [상속]
 inherit(상속) initial(기본값) unser(상속되는 속성에만 상속)
 ul{ border:inherit; }
+
+
+/* linear-gradient(0deg, rgba(255,0,0,0.8), rgba(255,0,0,0) 70.71%),
+	linear-gradient(127deg, rgba(0,255,0,0.8), rgba(0,255,0,0) 70.71%), 
+	linear-gradient(336deg, rgba(0,0,255,0.8), rgba(0,0,255,0) 70.71%), */

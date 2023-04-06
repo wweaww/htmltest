@@ -14,13 +14,11 @@ body {
 :root{
 	--background-image: 
 	linear-gradient(rgba(255,0,0,0.5), rgba(255, 127, 0, 0.5), rgba(255,255,0,0.5), rgba(0, 255, 127, 0.5), rgba(0,255,255,0.5)),
-	/* linear-gradient(0deg, rgba(255,0,0,0.8), rgba(255,0,0,0) 70.71%),
-	linear-gradient(127deg, rgba(0,255,0,0.8), rgba(0,255,0,0) 70.71%), 
-	linear-gradient(336deg, rgba(0,0,255,0.8), rgba(0,0,255,0) 70.71%), */
 	url(../images/back-removebg.png);
 }
-body:hover{ background-color: rgba(32,32,32,127); animation-play-state: paused; }
-body:not(:hover){ opacity:0%; background-color: white; }
+body:hover{ background-color: rgba(200,200,200,255); animation-play-state: paused; }
+body:not(:hover){ background-color: white; }
+/* opacity:0%;  */
 
 @keyframes slidein{
     0% { background-image: url(../images/back.png); }
@@ -30,7 +28,7 @@ body:not(:hover){ opacity:0%; background-color: white; }
     80% { background-image: url(../images/back2-removebg.png); }
     100% { background-image: url(../images/back2.png);}
     0%, 100% { background-size: 100% auto; }
-    30%, 70% { background-size: 50% auto; background-position-y: 50%; }
+    30%, 70% { background-size: 30% auto; background-position-y: 50%; }
 }
 
 @keyframes slidein2{

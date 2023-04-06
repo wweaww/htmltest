@@ -13,40 +13,57 @@
 //     alert('32비트 윈도우');
 // }
 
-window.addEventListener('load',function(event){
-    
-}, true);
-
-window.addEventListener('resize', function(event){
     // var size = {width: window.innerWidth || document.body.clientWidth, height: window.innerHeight || document.body.clientHeight };
     // if(size.width<900){
     //     display_smaller();
     // }else{
     //     display_over();
     // }
-}, true);
 
-// function display_smaller(){
-//     document.getElementsByClassName("left")[0].id = "none";
-//     document.getElementsByClassName("right")[0].id = "full";
-// }
+//load(로드가 완료), unload(로드가 안될때), error(에러 or 요청자원없음), resize(창 크기 조정), scroll(스크롤 할 때)
+window.addEventListener('load',function(event){ }, true);
+window.addEventListener('resize', function(event){ }, true);
 
-// function display_over(){
-//     document.getElementsByClassName("left")[0].id = "";
-//     document.getElementsByClassName("right")[0].id = "";
-// }
-
-function showContent(){
-    var clone = document.getElementsByTagName("template")[0].content.cloneNode(true);
-    document.getElementsByClassName('template')[0].innerText = "";
-    document.getElementsByClassName('template')[0].append(clone);
-}
-function clearContent(){
-    document.getElementsByClassName('template')[0].innerText = "";
+function showContent(num){
+    let number = parseInt(num);
+    if(number==0){
+        if(document.getElementsByClassName("container")[0].style.display == "none"){
+            document.getElementsByClassName("header_bt00")[0].value = "내용 안보이기";
+            document.getElementsByClassName("container")[0].style.display = "flex";
+        }else{
+            document.getElementsByClassName("header_bt00")[0].value = "내용 보이기";
+            document.getElementsByClassName("container")[0].style.display = "none";
+        }
+    }
 }
 
+function showContent1(){
+    clearContent1();
+    var clone = document.getElementsByClassName("temp1")[0].content.cloneNode(true);
+    document.getElementsByClassName('template1')[0].append(clone);
+}
+function clearContent1(){ document.getElementsByClassName('template1')[0].innerText = ""; }
 
-// (function func(){})();
 
-//var func = function(){ }
-//func();
+//(function func(){})();
+//var func = function(){}; func();
+
+// var didScroll;
+// // 스크롤시에 사용자가 스크롤했다는 것을 알림 
+// window.addEventListener('scroll', function(event){
+//     didScroll = true;
+// }, true);
+
+// // hasScrolled()를 실행하고 didScroll 상태를 재설정
+// setInterval(function() {
+//     if (didScroll) {
+//         hasScrolled();
+//         didScroll = false;
+//     }
+// }, 1000);
+
+// function hasScrolled() {
+//     if(window.scrollY > 100){
+//         alert("스크롤 내림");
+//     }
+// }

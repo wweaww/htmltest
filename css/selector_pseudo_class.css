@@ -9,6 +9,9 @@
     ::only-child - 유일한 자식
     E::only-of-type - E요소가 유일한 타입
 */
+col:first-child { background-color: green; }
+col:nth-child(2) { background-color: yellow; }
+col:nth-child(3) { background-color: red; }
 tr:nth-child(2) td:nth-child(3){background-color: gray;}
 /* after, before, first-line, first-letter, placeholder */
 input::placeholder{ color: coral; }

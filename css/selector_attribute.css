@@ -11,20 +11,15 @@
 */
 
 header [type="button"] {
-    color:rgb(255, 231, 255);
-    background-color: rgb(100,100,100);
-}
-
-header [type="button"].bt {
     color:white;
     background-color: rgb(100,100,100);
 }
 
-header [type="button"].bt:hover{
+header [type="button"]:hover{
     background-color: rgba(50,50,50);
 }
 
-header [type="button"].bt:active{
+header [type="button"]:active{
     color: rgba(255, 0, 0, 255);
     background-color: rgba(0, 0, 0, 255);
 }
