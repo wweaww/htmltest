@@ -37,6 +37,8 @@
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <!--스크립트 설정-->
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    
     <noscript>noscript태그 - 스크립트가 지원안할 때</noscript>
 
 </head>
@@ -285,9 +287,7 @@
                     <details>
                         <summary>object태그<br>- data : jpg, html, mp4, wav 등</summary>
                         <object data="mediatype_html/Media Types.html" width="320" height="320">object</object>
-                        <object data="wavs/wav.wav">
-                            <param name="autoplay" value="true">
-                        </object>
+                        <object data="wavs/wav.wav"> <param name="autoplay" value="false"> </object>
                     </details>
                     <details>
                         <summary>script태그</summary>

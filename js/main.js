@@ -21,8 +21,14 @@
     // }
 
 //load(로드가 완료), unload(로드가 안될때), error(에러 or 요청자원없음), resize(창 크기 조정), scroll(스크롤 할 때)
+// $(document).ready(function(){
+//     $(img).dblclick(function(){
+//         console.log($(this));
+//     });
+// });
 window.addEventListener('load',function(event){ }, true);
 window.addEventListener('resize', function(event){ }, true);
+
 
 function showContent(num){
     let number = parseInt(num);
@@ -43,7 +49,6 @@ function showContent1(){
     document.getElementsByClassName('template1')[0].append(clone);
 }
 function clearContent1(){ document.getElementsByClassName('template1')[0].innerText = ""; }
-
 
 //(function func(){})();
 //var func = function(){}; func();
@@ -67,3 +72,28 @@ function clearContent1(){ document.getElementsByClassName('template1')[0].innerT
 //         alert("스크롤 내림");
 //     }
 // }
+
+
+/*
+:eq
+:gt
+:lt
+:even 짝
+:old 홀
+
+:first 처음
+:last 마지막
+:animated 애니메이션
+:header h1~h6
+:lang(언어)
+
+:not(선택자)
+:root
+:target
+:contains(텍스트)
+
+:has(선택자) 선택자 자손을 가지는 요소
+:empty 자식 없음
+:parent 자식있음
+
+*/
